@@ -174,3 +174,17 @@ let b=get_hours(time[1].slice(0,5),time[1].slice(5,7))
 let r= time[0]
 console.log("r",r.slice(5,7))
 console.log(a,b)
+
+
+
+let arr=[1,2,3,4,5];
+
+const output1=arr.filter((el)=>{
+    console.log(el)
+    return el%2==0;
+})
+
+console.log("output1:",output1)
+console.log(arr)
+
+ 
